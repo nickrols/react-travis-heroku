@@ -12,7 +12,6 @@ jobs:
       script: yarn build
 on :
   branch: master
-
 deploy:
   provider: heroku
   api_key: $HEROKU_KEY
